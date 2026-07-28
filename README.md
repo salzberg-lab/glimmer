@@ -1,6 +1,6 @@
 # GLIMMER<br>Microbial Gene-Finding System
 
-Full instructions for installing and running Glimmer are in file glim302notes.pdf in this directory,
+Full instructions for installing and running Glimmer are in file [glim302notes.pdf](glim302notes.pdf) in this directory,
 and on the [repository wiki](https://github.com/salzberg-lab/glimmer/wiki)
 
 Here's a quick start guide for the inpatient:
