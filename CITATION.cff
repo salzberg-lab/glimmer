@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: GlimmerHMM
+authors:
+  - family-names: Majoros
+    given-names: William
+  - family-names: Salzberg
+    given-names: Steven
+version: 3.0.4
+date-released: 2004-01-01
+repository-code: https://github.com/...
