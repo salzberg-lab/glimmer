@@ -1,4 +1,4 @@
-# How tro complite the code
+# How to Complie the Code in Linux
 
 ```bash
 # Go to the directory containing the Makefile
