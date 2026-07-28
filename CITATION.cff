@@ -1,10 +1,47 @@
 cff-version: 1.2.0
-title: GlimmerHMM
+message: "If you use GLIMMER, please cite the following publication."
+type: software
+title: "GLIMMER: Microbial Gene-Finding System"
+version: "3.02"
 authors:
-  - family-names: Majoros
-    given-names: William
-  - family-names: Salzberg
-    given-names: Steven
-version: 3.0.4
-date-released: 2004-01-01
-repository-code: https://github.com/...
+  - family-names: "Salzberg"
+    given-names: "Steven L."
+  - family-names: "Delcher"
+    given-names: "Arthur L."
+  - family-names: "Kasif"
+    given-names: "Simon"
+  - family-names: "White"
+    given-names: "Owen"
+
+repository-code: "https://github.com/salzberg-lab/glimmer"
+
+abstract: "GLIMMER is a microbial gene-finding system that uses interpolated Markov models (IMMs) to identify coding regions in microbial genomes."
+
+keywords:
+  - "gene prediction"
+  - "gene finding"
+  - "microbial genomes"
+  - "interpolated Markov models"
+  - "bioinformatics"
+
+references:
+  - type: article
+    title: "Microbial gene identification using interpolated Markov models"
+    authors:
+      - family-names: "Salzberg"
+        given-names: "Steven L."
+      - family-names: "Delcher"
+        given-names: "Arthur L."
+      - family-names: "Kasif"
+        given-names: "Simon"
+      - family-names: "White"
+        given-names: "Owen"
+    journal: "Nucleic Acids Research"
+    volume: "26"
+    issue: "2"
+    pages: "544-548"
+    year: 1998
+    month: 1
+    doi: "10.1093/nar/26.2.544"
+    pmid: "9421513"
+    pmcid: "PMC147303"
