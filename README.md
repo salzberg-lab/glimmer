@@ -2,8 +2,7 @@
 
 ## Installation and Running
 
-Full installation and usage instructions are available in the [glim302notes.pdf](glim302notes.pdf) file 
-and in the [repository wiki](https://github.com/salzberg-lab/glimmer/wiki).
+Full installation and usage instructions are available in the [glim302notes.pdf](glim302notes.pdf) file .  
 
 ## Quick Start 
 
@@ -25,7 +24,11 @@ and in the [repository wiki](https://github.com/salzberg-lab/glimmer/wiki).
 
 - Help on options and command parameters for each program can be gotten
   by running the program with a -h option.
+
+# Additional Documentation
+
+See the repository's [Wiki](https://github.com/salzberg-lab/glimmer/wiki) for additional documentation.
 	
 ## Publication
 
-[Salzberg SL, Delcher AL, Kasif S, White O. Microbial gene identification using interpolated Markov models. Nucleic Acids Res. 1998 Jan 15;26(2):544-8. doi: 10.1093/nar/26.2.544. PMID: 9421513; PMCID: PMC147303.](https://pmc.ncbi.nlm.nih.gov/articles/PMC147303/)
+PMC: [Salzberg SL, Delcher AL, Kasif S, White O. Microbial gene identification using interpolated Markov models. Nucleic Acids Res. 1998 Jan 15;26(2):544-8. doi: 10.1093/nar/26.2.544. PMID: 9421513; PMCID: PMC147303.](https://pmc.ncbi.nlm.nih.gov/articles/PMC147303/)
