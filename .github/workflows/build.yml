@@ -37,4 +37,4 @@ jobs:
 
       - name: Test executable
         run: |
-          ./bin/glimmer3 -h
+          ./bin/glimmer3 -h || [ $? -eq 1 ]

@@ -13,9 +13,18 @@ jobs:
 
       - name: Build
         run: |
-          mkdir -p obj bin
+          mkdir -p obj bin lib
           cd SimpleMake
           make
+
+      - name: Show binaries
+        run: |
+          ls -lh bin/
+          file bin/*
+
+      - name: Test executable
+        run: |
+          ./bin/glimmer3 -h || [ $? -eq 1 ]
 
       - name: Package
         run: |
