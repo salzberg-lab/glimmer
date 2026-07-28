@@ -1,0 +1,42 @@
+name: Build Glimmer
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'SimpleMake/**'
+      - 'src/**'
+      - 'lib/**'
+      - '.github/workflows/**'
+
+  pull_request:
+    paths:
+      - 'SimpleMake/**'
+      - 'src/**'
+      - 'lib/**'
+      - '.github/workflows/**'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: |
+          mkdir -p obj bin
+          cd SimpleMake
+          make
+
+      - name: Show binaries
+        run: |
+          ls -lh bin/
+          file bin/*
+
+      - name: Test executable
+        run: |
+          ./bin/glimmer3 -h
