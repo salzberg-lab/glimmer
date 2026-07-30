@@ -25,7 +25,7 @@ Full installation and usage instructions are available in the [glim302notes.pdf]
 - Help on options and command parameters for each program can be gotten
   by running the program with a -h option.
 
-# Additional Documentation
+## Additional Documentation
 
 See the repository's [Wiki](https://github.com/salzberg-lab/glimmer/wiki) for additional documentation.
 	
